@@ -27,7 +27,7 @@ const employeeSchema = new Schema({
         required: true
     },
     hired : {
-        type: String,
+        type: Boolean,
         required: true
     }
 })
